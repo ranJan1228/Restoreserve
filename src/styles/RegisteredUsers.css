@@ -1,0 +1,57 @@
+/* Dark background with food color accents */
+
+.registered-users-container {
+    padding: 3rem 2rem;
+    background-color: #151515;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    color: #f4f4f4;
+    margin-top: 5rem;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #ffa500; /* warm orange */
+    letter-spacing: 1px;
+  }
+  
+  .loading-spinner {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ff6347; /* tomato */
+    margin-top: 3rem;
+  }
+  
+  .user-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+  }
+  
+  .user-card {
+    background: #2b2b2b;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(255, 165, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #444;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(255, 165, 0, 0.2);
+  }
+  
+  .user-card h3 {
+    color: #ffae42; /* orange honey */
+    margin-bottom: 0.5rem;
+  }
+  
+  .user-card p {
+    color: #f0e68c; /* light khaki - mild yellow */
+    font-size: 0.95rem;
+  }
+  

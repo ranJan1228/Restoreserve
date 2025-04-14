@@ -1,0 +1,75 @@
+.manage-table-container {
+    padding: 2rem;
+    max-width: 500px;
+    margin: auto;
+    background-color: #fef3ef;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  }
+  
+  .manage-table-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .table-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .table-row {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 1.5rem;
+  }
+  
+  .table-label {
+    font-weight: 500;
+    width: 120px;
+    font-size: 1.2rem;
+  }
+  
+  .table-input {
+    width: 80px;
+    padding: 0.4rem 0.6rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 1rem;
+  }
+  
+  .update-button {
+    background-color: #ff5500;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.95rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 2rem;
+  }
+  
+  .update-button:hover {
+    background-color: #111111;
+  }
+  
+  .update-msg {
+    margin-left: 1rem;
+    color: green;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  
+  .note {
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    text-align: center;
+    color: #666;
+  }
+  
